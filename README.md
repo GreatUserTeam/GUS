@@ -28,15 +28,16 @@ Just works. For everyone.
 
 ### Comparison
 
-| Feature               | FreeBSD | GUS     | Linux   | Windows |
-|-----------------------|---------|---------|---------|---------|
-| Kernel size (approx)  | Large   | Tiny    | Medium  | Huge    |
-| Open source           | ✅ Yes  | ✅ Yes  | ✅ Yes  | ❌ No   |
-| Complexity for user   | High    | Low     | Medium  | Medium  |
-| Popularity            | Low     | Growing | High    | High    |
-| Built in Rust         | ❌ No   | ✅ Yes  | ❌ No   | ❌ No   |
-| Modular by design     | Partial | ✅ Yes  | Partial | ❌ No   |
-| Requires coding skills| Often   | No      | Sometimes| No     |
+| Feature                                 | FreeBSD           | GUS (new OS)              | Linux                 | Windows             |
+|-----------------------------------------|-------------------|---------------------------|-----------------------|---------------------|
+| Kernel type & size                      | Monolithic (Large)| -    | Monolithic (Medium)   | Hybrid (Huge)       |
+| Open source                             | ✅ Yes            | ✅ Yes                    | ✅ Yes                | ❌ No               |
+| Maturity / stability                    | Mature            | Experimental              | Mature                | Mature              |
+| User complexity (typical)               | High              | Very high (early adopter) | Medium                | Medium              |
+| Popularity             | Low      | Very low (brand new)      | Medium           | High         |
+| Main implementation language            | C                 | Rust                      | C                     | C / C++             |
+| Modularity (design)                     | Partial (modules) | ✅ Yes (claimed)          | Partial (modules)     | Partial             |
+| Requires coding skills (daily use/setup)| Often             | - | Sometimes            | No                  |
 
 ---
 
