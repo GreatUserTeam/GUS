@@ -30,13 +30,13 @@ Just works. For everyone.
 
 | Feature                                 | FreeBSD           | GUS (new OS)              | Linux                 | Windows             |
 |-----------------------------------------|-------------------|---------------------------|-----------------------|---------------------|
-| Kernel type & size                      | Monolithic (Large)| -    | Monolithic (Medium)   | Hybrid (Huge)       |
+| Kernel type & size                      | Monolithic (Large)| -    | Monolithic (Large)   | Hybrid (Huge)       |
 | Open source                             | ✅ Yes            | ✅ Yes                    | ✅ Yes                | ❌ No               |
 | Maturity / stability                    | Mature            | Experimental              | Mature                | Mature              |
-| User complexity (typical)               | High              | Very high (early adopter) | Medium                | Medium              |
+| User complexity (typical)               | High              | Very high (early adopter, for developers) | Medium                | Medium              |
 | Popularity             | Low      | Very low (brand new)      | Medium           | High         |
 | Main implementation language            | C                 | Rust                      | C                     | C / C++             |
-| Modularity (design)                     | Partial (modules) | ✅ Yes (claimed)          | Partial (modules)     | Partial             |
+| Modularity (design)                     | Partial (modules) | ✅ Yes (designed)          | Partial (modules)     | Partial             |
 | Requires coding skills (daily use/setup)| Often             | - | Sometimes            | No                  |
 
 ---
