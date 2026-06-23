@@ -34,7 +34,6 @@ pub extern "C" fn memset(s: *mut u8, c: i32, n: usize) -> *mut u8 {
     s
 }
 
-#[cfg(not(test))]
 #[panic_handler]
 fn panic(_info: &PanicInfo) -> ! {
     loop {}
@@ -47,3 +46,4 @@ pub extern "C" fn _start() -> ! {
     vga_buffer::print_shutdown();
     keyboard::shutdown();
 }
+#[cfg(not(test))]
